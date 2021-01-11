@@ -6,6 +6,7 @@ VoiceFoundry-app/amplify/.config/local-*
 VoiceFoundry-app/amplify/logs
 VoiceFoundry-app/amplify/mock-data
 VoiceFoundry-app/amplify/backend/amplify-meta.json
+VoiceFoundry-app/amplify/team-provider-info.json
 VoiceFoundry-app/amplify/backend/.temp
 VoiceFoundry-app/amplify/backend/function/VoiceFoundryGetWeatherFunc/src/node_modules/
 VoiceFoundry-app/amplify/backend/function/VoiceFoundryGetWeatherFunc/dist/
