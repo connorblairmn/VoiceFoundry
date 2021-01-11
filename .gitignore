@@ -7,10 +7,13 @@ VoiceFoundry-app/amplify/logs
 VoiceFoundry-app/amplify/mock-data
 VoiceFoundry-app/amplify/backend/amplify-meta.json
 VoiceFoundry-app/amplify/backend/.temp
+VoiceFoundry-app/amplify/backend/function/VoiceFoundryGetWeatherFunc/src/node_modules/
+VoiceFoundry-app/amplify/backend/function/VoiceFoundryGetWeatherFunc/dist/
 VoiceFoundry-app/build/
 VoiceFoundry-app/dist/
 VoiceFoundry-app/node_modules/
 VoiceFoundry-app/aws-exports.js
+VoiceFoundry-app/src/aws-exports.js
 VoiceFoundry-app/awsconfiguration.json
 VoiceFoundry-app/amplifyconfiguration.json
 VoiceFoundry-app/amplify-build-config.json
