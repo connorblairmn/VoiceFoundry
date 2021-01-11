@@ -15,14 +15,14 @@ export class AppComponent {
   path = '/items';
   //holds the response from the API
   get_weather_api_resp: WeatherRoot | null = null;
-  //flag if error occurred
+  //flag if an error occurred
   api_error_occ: boolean = false;
 
   ngOnInit() {
     //get the weather
     API.get(this.apiName, this.path, null)
       .then((response) => {
-        //convert the JSON to the weather inferface and set local variable.
+        //convert the JSON to the weather interface and set local variable.
         this.get_weather_api_resp = response as WeatherRoot;
       })
       .catch((error) => {
