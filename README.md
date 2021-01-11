@@ -18,13 +18,3 @@ This repository holds the source code for the VoiceFoundry interview coding assi
     ├── VoiceFoundry-App/amplify/backend/awscloudformation                   # Root CloudFormation Stack
     ├── VoiceFoundry-App/src/app                                             # Source files for Single Page Application (SPA)
     └── README.md
-
-## Getting Started
-
-### Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-### Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
