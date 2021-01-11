@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "VoiceFoundryGetWeatherFunc",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "VoiceFoundryGetWeatherApi",
+    "apiName": "VoiceFoundryGetWeatherApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "VoiceFoundryGetWeatherFunc"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-voicefoundryapp-dev-193725-authRole",
+        "unAuthRoleName": "amplify-voicefoundryapp-dev-193725-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "VoiceFoundryGetWeatherFunc",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "69cbf963"
+}

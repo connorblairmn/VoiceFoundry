@@ -1,0 +1,43 @@
+<div>
+  <div class="landing-container">
+    <!-- Display a card showing the weather in Tulsa OK -->
+    <div *ngIf="get_weather_api_resp != null">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title> Tulsa, Oklahoma </mat-card-title>
+          <mat-card-subtitle>
+            {{ get_weather_api_resp.weather[0].main }}
+          </mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+          <div class="weather-card-body">
+            <div class="temperature-text">
+              {{ get_weather_api_resp.main.temp }} <span>&#176;</span>
+            </div>
+
+            <p>
+              H: {{ get_weather_api_resp.main.temp_max }} <span>&#176;</span> L:
+              {{ get_weather_api_resp.main.temp_min }} <span>&#176;</span>
+            </p>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <!-- Display a card with a cute dog if an error occurred. -->
+    <div *ngIf="api_error_occ">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>Something went wrong :(</mat-card-title>
+          <mat-card-subtitle>Please try again.</mat-card-subtitle>
+        </mat-card-header>
+        <img
+          mat-card-image
+          src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+          alt="Photo of a Shiba Inu"
+        />
+      </mat-card>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+/* container to center weather card */
+.landing-container {
+  padding-top: 10% !important;
+  padding-left: 30% !important;
+  padding-right: 30% !important;
+  padding-bottom: 10% !important;
+}
+
+/*align the items in the card content in the center */
+.weather-card-body {
+  text-align: center;
+  align-items: center;
+}
+
+/* text format for Temperature */
+.temperature-text {
+  font-size: xx-large;
+  padding-bottom: 5% !important;
+}

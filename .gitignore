@@ -1,0 +1,65 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# amplify 
+VoiceFoundry-app/amplify/\#current-cloud-backend
+VoiceFoundry-app/amplify/.config/local-*
+VoiceFoundry-app/amplify/logs
+VoiceFoundry-app/amplify/mock-data
+VoiceFoundry-app/amplify/backend/amplify-meta.json
+VoiceFoundry-app/amplify/backend/.temp
+VoiceFoundry-app/build/
+VoiceFoundry-app/dist/
+VoiceFoundry-app/node_modules/
+VoiceFoundry-app/aws-exports.js
+VoiceFoundry-app/awsconfiguration.json
+VoiceFoundry-app/amplifyconfiguration.json
+VoiceFoundry-app/amplify-build-config.json
+VoiceFoundry-app/amplify-gradle-config.json
+VoiceFoundry-app/amplifytools.xcconfig
+VoiceFoundry-app/.secret-*
+
+# compiled output
+VoiceFoundry-app/dist
+VoiceFoundry-app/tmp
+VoiceFoundry-app/out-tsc
+# Only exists if Bazel was run
+VoiceFoundry-app/bazel-out
+
+# dependencies
+VoiceFoundry-app/node_modules
+
+# profiling files
+VoiceFoundry-app/chrome-profiler-events*.json
+VoiceFoundry-app/speed-measure-plugin*.json
+
+# IDEs and editors
+VoiceFoundry-app/.idea
+VoiceFoundry-app/.project
+VoiceFoundry-app/.classpath
+VoiceFoundry-app/.c9/
+VoiceFoundry-app/*.launch
+VoiceFoundry-app/.settings/
+VoiceFoundry-app/*.sublime-workspace
+
+# IDE - VSCode
+VoiceFoundry-app/.vscode/*
+VoiceFoundry-app/!.vscode/settings.json
+VoiceFoundry-app/!.vscode/tasks.json
+VoiceFoundry-app/!.vscode/launch.json
+VoiceFoundry-app/!.vscode/extensions.json
+VoiceFoundry-app/.history/*
+
+# misc
+VoiceFoundry-app/.sass-cache
+VoiceFoundry-app/connect.lock
+VoiceFoundry-app/coverage
+VoiceFoundry-app/libpeerconnection.log
+VoiceFoundry-app/npm-debug.log
+VoiceFoundry-app/yarn-error.log
+VoiceFoundry-app/testem.log
+VoiceFoundry-app/typings
+
+# System Files
+.DS_Store
+VoiceFoundry-app/Thumbs.db
+VoiceFoundry-app/.DS_Store
